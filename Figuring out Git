@@ -1,4 +1,22 @@
-7/8/18:
-    Alright, starting to learn how to effectively use GIT. Did the Codecademy (https://www.codecademy.com/learn/learn-git) course on learning Git and I feel like it didn't quite cover it to the extent I was hoping for. 
-    I find myself not knowing how to even begin the process of using git commands. Not sure how to add a file into a repository or what the point of starting repositories on my personal computer is. 
-    But my first accomplisment using git will be getting the technical journal from my web scraper into this repository. 
+7/8/18:Beginning to Read through Git documentation (Via textbook)
+    - Alright, starting to learn how to effectively use GIT. Did the Codecademy (https://www.codecademy.com/learn/learn-git) course on learning Git and I feel like it didn't quite cover it to the extent I was hoping for. 
+    - I find myself not knowing how to even begin the process of using git commands. Not sure how to add a file into a repository or what the point of starting repositories on my personal computer is. 
+    - But my first accomplisment using git will be getting the technical journal from my web scraper into this repository. 
+    - Beginning to read through Git --distributed-even-if-your-workflow-isnt: 
+        - https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+        - Three main types of version control systems: 
+            -Local : Copying files into another directory. Easy, but also easy to mess up which file is which and therefore save over incorrect file.  
+            - Centralized(CVS, Subversion & Perforce): Single server that contains all files, a central HUB that multiple users can acess. Pitfall : If server goes down, no work, no collaboration.
+            - & Distributed (Git, Mercurial, Bazaar) : Fully mirror repositories, each computer essentially has full backup of original repository. 
+        - Git As a Series of Snapshots
+            - Stores what the files look like and stores reference to that snapshot. 
+            - Will only store files that have changed, otherwise will keep most recent version of file that will be referred to later. 
+        - Operations are Local
+            - Doesn't need server to operate, can commit changes to local repository and commit changes once server is available. 
+        - 3 States and 3 Main Sections: 
+            - Committed, modified, staged
+            - Working tree (or directory), Staging area, .git directory (Repository)
+            - Modify files in the working tree, selectively stage changes you want to be comitted to staging area, commit those files and the snapshot of them into the Git directory. 
+            
+             
+    
