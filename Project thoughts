@@ -1,0 +1,4 @@
+7/12/18 : Virtual environment
+  - As I have been trying to work on things at home and at work, I have a flash drive that I have put my projects and IDE on. I haven't been able to figure out a way to run my python files through ATOM on my flash drive. It works at home, obviously, because I have python installed on my computer. I found documentation on creating a virtual environment that I can add python to and thought that would work (https://docs.python.org/3/library/venv.html)
+  Problem:
+    **Figuring out a way to make python work on my flash drive through ATOM ide.
